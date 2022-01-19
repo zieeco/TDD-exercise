@@ -52,6 +52,8 @@ if this returns `nvm: command not found` close the terminal and re-open it.
 
 ### Installing Node
 
+<details>
+<summary><b>Install after installing nvm</b></summary>
   Now that you have `nvm` installed, you can further install Node.
 
 #### Step 1: Installation
@@ -74,3 +76,5 @@ nvm use node
 
 To check if all went well, you can run `node -v`, you should see the version of node and when you run `npm -v` you also see the version of the node you have.
 if you see that, then you've successfully installed `Node`
+
+</details>
