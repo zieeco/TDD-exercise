@@ -16,4 +16,7 @@ describe('revserseString', () => {
   test('works with numbers and punctuation', () => {
     expect(reverseString('12345! abcde!')).toBe('!edcba !54321');
   });
+  test('works with blank strings', () => {
+    expect(reverseString('')).toBe('');
+  });
 });
