@@ -1,4 +1,4 @@
-const stringLength = require('./stringLength');
+const stringLength = require('./stringLength.js');
 
 describe('stringLength', () => {
   test('should return a number', () => {
@@ -8,8 +8,8 @@ describe('stringLength', () => {
     expect(stringLength('string')).toBe(6);
   });
   test('should throw an error if the string is not between 1 and 10 characters long', () => {
-  expect(() => {
-    stringLength('stringifying')
-  }).toThrow('Please enter a string between 1 and 10 characters long');
+    expect(() => {
+      stringLength('stringifying');
+    }).toThrow('Please enter a string between 1 and 10 characters long');
   });
 });
