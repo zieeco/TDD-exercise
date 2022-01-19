@@ -5,3 +5,6 @@ write a function called `capitalizeString` that takes a string as an argument an
 ```javascript
 capitalizeString('microverse') // returns 'Microverse'
 ```
+
+
+Also, you should not capitalize the first letter of the string if it's already capitalized.
