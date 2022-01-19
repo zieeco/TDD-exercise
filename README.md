@@ -50,11 +50,11 @@ command -v nvm
 if this returns `nvm: command not found` close the terminal and re-open it.
 </details>
 
-- ### Installing Node
+### Installing Node
 
   Now that you have `nvm` installed, you can further install Node.
 
-### Step 1: Installation
+#### Step 1: Installation
 
 Run:
 
@@ -64,7 +64,7 @@ nvm install --lts
 
 This command will install the latest stable version of node. Be patient and don't halt the process.
 
-### Step 2: Setting the Node Version
+##### Step 2: Setting the Node Version
 
 After installing Node, you need to tell `nvm` which version of Node to use when you run the `node` command. Just run the following command:
 
