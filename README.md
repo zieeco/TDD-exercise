@@ -5,14 +5,16 @@ These are a series of JavaScript exercises from  the Microverse curriculum inten
 ## Getting Started On How To Use These Exercises
 
 Before you start you should have a few things installed on your machine:
+
 1. **NPM**. To check if you have NPM installed, type `npm --version` in your terminal. If you get back `Command 'npm' not found, but can be installed with:`, do NOT follow the instructions in the terminal to install with `apt-get`. (This causes permission issues.) Instead, install Node with NVM by following the instructions below:
 
 * [ ] Overview on installing  node:
 
-- Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, which means that it gives you the ability to code the Server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system. We're going to install it using the `nvm` (Node version Manager) because it makes it easy to change the Node versions and upgrade Node.
+* Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, which means that it gives you the ability to code the Server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system. We're going to install it using the `nvm` (Node version Manager) because it makes it easy to change the Node versions and upgrade Node.
 There's another tool called the `npm` (Node Package Manager) that you will use later to help you install the various libraries and tools used in JavaScript environment.
 
 ### Installing nvm
+
 <details>
     <summary><b>Installation on Linux</b></summary>
 
@@ -78,4 +80,46 @@ nvm use node
 To check if all went well, you can run `node -v`, you should see the version of node and when you run `npm -v` you also see the version of the node you have.
 if you see that, then you've successfully installed `Node`
 
+</details> <br>
+
+2. **A copy of this repository**
+
+<details>
+<summary><b>Clone the repository</b></summary>
+
+* Clone this repository or download the Zip folder:
+
+~~~ bash
+https://github.com/zieeco/TDD-exercise.git
+
+~~~
+
+1. Navigate to the location of the folder in your machine:
+
+~~~
+
+you@your-Pc-name:~$ cd <folder>
+~~~
+
 </details>
+
+3. **Jest**. After cloning this repository to your local machine, go into the directory in your command line by typing:
+
+~~~ bash
+cd TDD-exercise
+~~~
+
+and `run npm install`. This will install Jest and set up the testing platform.
+
+###  How To Run Each Test
+
+Each exercise has 3 files, a README file with a description of the task, a JavaScript file where you'd write your solution and a set of Test file which will test your solutions
+You will need to go into exercise directory in your terminal `cd exerciseName` and after writing your solution, run `npm test exerciseName.spec.js`
+
+e.g
+
+`cd reverseString`
+`npm run reverseString.spec.js`
+
+**Note:**
+* [ ] *All Test Must Pass At The Same Time*
