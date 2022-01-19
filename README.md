@@ -18,7 +18,7 @@ There's another tool called the `npm` (Node Package Manager) that you will use l
 
 #### Step 0: Prerequisites
 
-To properly install `nvm`, you'll need `curl`. Simply run the command below:
+To properly install `nvm` , you'll need `curl`. Simply run the command below:
 
 ~~~bash
 sudo apt install curl
@@ -54,6 +54,7 @@ if this returns `nvm: command not found` close the terminal and re-open it.
 
 <details>
 <summary><b>Install after installing nvm</b></summary>
+
   Now that you have `nvm` installed, you can further install Node.
 
 #### Step 1: Installation
