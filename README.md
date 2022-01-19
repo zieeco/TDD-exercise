@@ -16,7 +16,7 @@ There's another tool called the `npm` (Node Package Manager) that you will use l
 <details>
     <summary><b>Installation on Linux</b></summary>
 
-### Step 0: Prerequisites
+#### Step 0: Prerequisites
 
 To properly install `nvm`, you'll need `curl`. Simply run the command below:
 
@@ -24,7 +24,7 @@ To properly install `nvm`, you'll need `curl`. Simply run the command below:
 sudo apt install curl
 ~~~
 
-### Step 1: Downloading and Installing `nvm`
+#### Step 1: Downloading and Installing `nvm`
 
 Simply run this command:
 
@@ -32,7 +32,7 @@ Simply run this command:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ~~~
 
-### Step 2: Initializing `nvm`
+#### Step 2: Initializing `nvm`
 
 In the terminal there should be some directions on how to initialize `nvm`, if not, (or if you don't feel like copying from the terminal), run these commands:
 
