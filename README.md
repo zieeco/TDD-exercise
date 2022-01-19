@@ -12,7 +12,7 @@ Before you start you should have a few things installed on your machine:
 - Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, which means that it gives you the ability to code the Server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system. We're going to install it using the `nvm` (Node version Manager) because it makes it easy to change the Node versions and upgrade Node.
 There's another tool called the `npm` (Node Package Manager) that you will use later to help you install the various libraries and tools used in JavaScript environment.
 
-- ### Installing nvm
+### Installing nvm
 <details>
     <summary><b>Installation on Linux</b></summary>
 
